@@ -8,6 +8,10 @@ This repository hosts the solution to the Globant Data Engineering Coding Challe
 - **Analytical Endpoints**: Provides insights into employee hiring trends and departmental performance.
 - **Cloud-Native Deployment**: Utilizes Docker for containerization and Google Cloud Run for scalable hosting.
 
+## Workflow
+
+![Challenge 1 Flow](images\DE_Challenge_1.drawio.png)
+
 ## Project Structure
 
 - `main.py`: Entry point for the FastAPI application.
