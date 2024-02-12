@@ -10,7 +10,7 @@ This repository hosts the solution to the Globant Data Engineering Coding Challe
 
 ## Workflow
 
-![Challenge 1 Flow](.\images\DE_Challenge_1.drawio.png)
+![Challenge 1 Flow](images/DE_Challenge_1.drawio.png)
 
 ## Project Structure
 
