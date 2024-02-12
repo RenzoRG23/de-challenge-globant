@@ -8,9 +8,18 @@ This repository hosts the solution to the Globant Data Engineering Coding Challe
 - **Analytical Endpoints**: Provides insights into employee hiring trends and departmental performance.
 - **Cloud-Native Deployment**: Utilizes Docker for containerization and Google Cloud Run for scalable hosting.
 
-## Workflow
+## Workflows
+### Workflow Challenge 1: Store historical data from csv files
+<img src="images/DE_Challenge_1.drawio.png" width="500" alt="Challenge 1 Flow">
 
-![Challenge 1 Flow](images/DE_Challenge_1.drawio.png)
+### Result Challenge 1: Data in Bigquery
+<img src="images/1_BQT.png" width="500" alt="Challenge 1 Result">
+
+### Workflow Challenge 2: Metrics for stakeholders
+<img src="images/DE_Challenge_2.drawio.png" width="500" alt="Challenge 2 Flow">
+
+### Result Challenge 2: Metrics from Bigquery
+<img src="images/2_1_API.png" width="500" alt="Challenge 2 Flow">
 
 ## Project Structure
 
@@ -53,8 +62,8 @@ Execute `deploy.sh` to deploy to Google Cloud Run, ensuring GCP permissions are 
 ## API Endpoints
 
 - `/carga_historica`: Initiates historical data loading.
-- `/employees_hired_quarterly`: Fetches quarterly hiring statistics.
-- `/departments_with_most_hires`: Identifies top hiring departments.
+- `/employees_hired_quarterly`: Fetches quarterly hiring statistics. (POST Method, you can input the year for analysis)
+- `/departments_with_most_hires`: Identifies top hiring departments. (POST Method, you can input the year for analysis)
 
 ## Notes
 
